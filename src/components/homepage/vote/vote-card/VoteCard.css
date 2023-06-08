@@ -1,0 +1,202 @@
+.swiper, .swiper-wrapper {
+    overflow: visible !important;
+}
+
+.swiper-button-next {
+    right: 45% !important;
+    top: 125% !important;
+}
+
+.swiper-button-prev {
+    left: 45% !important;
+    top: 125% !important;
+}
+
+.vote-card, .swiper-slide {
+    transition: all 0.4s ease-in-out;
+}
+
+.vote-thumb img {
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.vote-card-meta h5 {
+    font-family: 'Input Mono', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.vote-card p {
+    font-family: 'Madera', sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.swiper-slide .lol-btn {
+    font-size: 11px;
+}
+
+.swiper-slide img {
+    width: 50px;
+}
+
+.swiper-slide.swiper-slide-next p {
+    font-size: 26px;
+}
+
+.swiper-slide.swiper-slide-next h5 {
+    font-size: 26px;
+}
+
+.swiper-slide.swiper-slide-next .vote-card {
+    /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(255.99deg, rgba(255, 255, 255, 0.25) -7.39%, rgba(217, 217, 217, 0) 168.26%);*/
+    backdrop-filter: blur(21.8014px);
+    background-image: url("../../../../assets/images/vote-card-bg.png");
+}
+
+.vote-thumbs {
+    width: fit-content;
+    margin: 40px auto 50px;
+}
+
+.swiper-slide img {
+    width: 40px;
+}
+
+.swiper-slide.swiper-slide-next {
+    top: 0 !important;
+}
+
+.swiper-slide {
+    position: relative;
+    top: 40% !important;
+}
+
+.swiper-slide.swiper-slide-active .vote-card {
+    transform: rotate(-16deg) !important;
+}
+
+.swiper-slide.swiper-slide-next .vote-card {
+    transform: rotate(0deg) !important;
+}
+
+.swiper-slide .vote-card {
+    transform: rotate(16deg);
+}
+
+.vote-thumbs img:first-child {
+    margin-right: 20px;
+}
+
+.vote-card {
+    background: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(21.8014px);
+    border-radius: 12px;
+    padding: 30px 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vote-card .lol-btn {
+    margin: 0 auto;
+    display: block;
+}
+
+.swiper-slide-next .lol-btn {
+    background-image: url("../../../../assets/images/active-btn-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Input Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 50px;
+    border: 1.5px solid #FFFFFF;
+    box-shadow: inset 0px 4px 73px rgba(255, 186, 0, 0.47);
+    backdrop-filter: blur(2.5px);
+    border-radius: 1000px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 70px;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url("../../../../assets/images/arrow-right.png");
+    background-size: contain;
+}
+
+.swiper-button-prev {
+    transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 768px) {
+    #vote .swiper .swiper-slide .vote-card {
+        transform: rotate(0deg) !important;
+    }
+
+    .swiper-slide p {
+        font-size: 18px !important;
+    }
+
+    .swiper-slide h5 {
+        font-size: 24px !important;
+    }
+
+    .swiper-slide .vote-card {
+        /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(255.99deg, rgba(255, 255, 255, 0.25) -7.39%, rgba(217, 217, 217, 0) 168.26%) !important;*/
+        backdrop-filter: blur(21.8014px) !important;
+        background-image: url("../../../../assets/images/vote-card-bg.png");
+    }
+
+    .swiper-slide {
+        top: 0 !important;
+    }
+
+    #vote .swiper .swiper-slide .lol-btn {
+        background-image: url("../../../../assets/images/active-btn-bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Input Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+        text-decoration: none;
+        padding: 15px 50px;
+        border: 1.5px solid #FFFFFF;
+        box-shadow: inset 0px 4px 73px rgba(255, 186, 0, 0.47);
+        backdrop-filter: blur(2.5px);
+        border-radius: 1000px;
+    }
+
+    .swiper-button-prev {
+        left: 35% !important;
+    }
+
+    .swiper-button-next {
+        right: 35% !important;
+    }
+}

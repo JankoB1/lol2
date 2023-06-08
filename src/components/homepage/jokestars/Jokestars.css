@@ -1,0 +1,72 @@
+.tv-logos {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto 50px auto;
+    align-items: center;
+}
+
+.tv-logos img {
+    max-width: 130px;
+    height: fit-content;
+}
+
+.jokestars-header p {
+    width: 75%;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+#jokestars {
+    width: 90%;
+    margin: 0 auto;
+    padding: 8vh 0;
+}
+
+#jokestars h3 {
+    font-family: 'Input Mono', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+    margin-top: 65px;
+}
+
+.jokestar {
+    position: relative;
+}
+
+.jokestars-row {
+    justify-content: space-between;
+}
+
+.tv-appearances {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .jokestars-header p {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .tv-appearances {
+        width: 100%;
+    }
+
+    .tv-logos {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .tv-logos img {
+        height: fit-content;
+        margin: 0 10px 20px;
+        vertical-align: middle;
+    }
+}

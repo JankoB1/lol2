@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68816338-6a20-4d92-99f8-1e829f80c0af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/build.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/clayton.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/j1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/j2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/j3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/j4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ksenia.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/norman.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/benefits/Benefits.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/benefits/Benefits.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/community/Community.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/community/Community.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/drop/drop-card/DropCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/drop/drop-card/DropCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/drop/drop-card/DropCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/drop/drop-card/DropCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/homepage-hero/HomepageHero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/homepage-hero/HomepageHero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/homepage-hero/HomepageHero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/homepage-hero/HomepageHero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/joke-ranking/JokeRanking.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/joke-ranking/JokeRanking.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/joke-ranking/joke-ranking-card/JokeRankingCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/joke-ranking/joke-ranking-card/JokeRankingCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/jokestars/Jokestars.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/jokestars/Jokestars.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/jokestars/Jokestars.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/jokestars/Jokestars.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/jokestars/jokestar/Jokestar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/jokestars/jokestar/Jokestar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/jokestars/jokestar/Jokestar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/jokestars/jokestar/Jokestar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/roadmap/roadmap-card/RoadmapCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/roadmap/roadmap-card/RoadmapCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/vote/Vote.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/vote/Vote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/vote/vote-card/VoteCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/vote/vote-card/VoteCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/homepage/Homepage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/Homepage.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Types.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/button/Button.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/header/Header.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/drop/Drop.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/drop/Drop.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/drop/drop-card/DropCard.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/drop/drop-card/DropCard.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/homepage-hero/HomepageHero.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/homepage-hero/HomepageHero.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/jokestars/Jokestars.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/jokestars/Jokestars.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/jokestars/jokestar/Jokestar.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/homepage/jokestars/jokestar/Jokestar.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/homepage/Homepage.tsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2P0jDoXtboSmiAaSOhgkCgDlwNc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/wamp64/www/lol/src/assets/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\wamp64\\www\\lol\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\lol\src\assets\images" />
+      <recent name="C:\wamp64\www\lol\src\assets\fonts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68816338-6a20-4d92-99f8-1e829f80c0af" name="Changes" comment="" />
+      <created>1682600780965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682600780965</updated>
+      <workItem from="1682600785545" duration="12245000" />
+      <workItem from="1683125090632" duration="12943000" />
+      <workItem from="1683209912821" duration="388000" />
+      <workItem from="1683212737911" duration="10413000" />
+      <workItem from="1683284275246" duration="27826000" />
+      <workItem from="1683485649207" duration="22419000" />
+      <workItem from="1683621066206" duration="1973000" />
+      <workItem from="1684320331871" duration="8947000" />
+      <workItem from="1684744136398" duration="11995000" />
+      <workItem from="1686065689172" duration="4536000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

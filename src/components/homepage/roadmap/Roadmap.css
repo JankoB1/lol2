@@ -1,0 +1,9 @@
+#roadmap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.roadmap-inner {
+    display: flex;
+    padding: 7vh 0 10vh;
+}

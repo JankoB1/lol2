@@ -1,0 +1,115 @@
+.jokestar {
+    cursor: pointer;
+}
+
+.jokestar img {
+    width: 100%;
+}
+
+.jokestar .jokestar-inner {
+    background: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(21.8014px);
+    border-radius: 12px;
+    padding-top: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*.jokestar:nth-child(2) .jokestar-inner {*/
+/*    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(255.99deg, rgba(255, 255, 255, 0.25) -7.39%, rgba(217, 217, 217, 0) 168.26%);*/
+/*    backdrop-filter: blur(21.8014px);*/
+/*    border-radius: 28px;*/
+/*}*/
+
+/*.jokestar:nth-child(1) img {*/
+/*    width: 84%;*/
+/*    margin: 0 auto;*/
+/*    display: block;*/
+/*}*/
+
+/*.jokestar:nth-child(2) img {*/
+/*    width: 50%;*/
+/*    margin: 0 auto;*/
+/*    display: block;*/
+/*}*/
+
+/*.jokestar:nth-child(2) .jokestar-cta {*/
+/*    bottom: 0 !important;*/
+/*}*/
+
+.jokestar-cta {
+    position: absolute;
+    bottom: -100%;
+    background: rgba(0, 0, 0, 0.49);
+    backdrop-filter: blur(21.8014px);
+    border-radius: 0;
+    padding: 10px 20px 7px;
+    transition: bottom 0.3s ease-in-out;
+}
+
+.jokestar:hover .jokestar-cta {
+    bottom: -1%;
+}
+
+.jokestar-cta h5 {
+    font-family: 'Input Mono', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.jokestar-cta p {
+    font-family: 'Suisse Intl', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.jokestar-cta a {
+    text-decoration: none;
+}
+
+.jokestar-cta img.arrow-right {
+    width: 50px;
+    position: relative;
+    right: 7px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .jokestar {
+        width: 100% !important;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .jokestars-row {
+        height: auto !important;
+    }
+
+    .jokestar-cta {
+        bottom: 0 !important;
+    }
+
+    .jokestar-cta h5 {
+        font-size: 24px;
+    }
+
+    .jokestar-cta p {
+        font-size: 16px;
+    }
+
+    .jokestar-inner {
+        position: relative !important;
+    }
+}

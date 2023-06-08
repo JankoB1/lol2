@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Input Mono';
+  src: url("./assets/fonts/InputMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Madera';
+  src: url("./assets/fonts/Monotype  - Madera Light.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000 !important;
+  background-image: url("./assets/images/main-bg.png");
+  overflow-x: hidden !important;
+}
+
+div#root {
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-family: 'Madera', sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+section h2 {
+  font-family: 'Input Mono', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+section {
+  max-width: 1300px !important;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease-in-out 1s forwards;
+}
+
+.fade-in-visible {
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+}
+
+.fade-in-visible.show {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+
+  section h2 {
+    font-size: 40px !important;
+  }
+}
+
+.wallets-modal .modal-content {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(255.99deg, rgba(255, 255, 255, 0.25) -7.39%, rgba(217, 217, 217, 0) 168.26%);
+	backdrop-filter: blur(21.8014px);
+}
+.wallets-modal .modal-content .appie-title {
+	font-family: 'Input Mono', sans-serif;
+}
+.closeButton {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+  color: #fff;
+}
+.wallet-wrapper .wallet-name {
+  margin-left: 1rem;
+}
+.wallets-modal .input-count.form-control {
+	font-size: 18px;
+	border-color: #fff !important;
+	margin: 0 10px;
+	width: 80px !important;
+	height: 45px;
+	text-align: center;
+	color: #000;
+	border: 2px solid;
+	font-size: 18px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.react-alert-card {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  padding: 15px 10px;
+  text-transform: unset !important;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 2px 2px;
+  font-family: 'Madera', sans-serif !important;
+  width: 300px;
+  box-sizing: border-box;
+  margin: 10px;
+  pointer-events: all;
+}
+.react-alert-card svg {
+  font-size: 40px;
+}
+.react-alert-card button {
+    margin-left: 20px;
+    border: medium none;
+    background-color: transparent;
+    font-family: 'Input Mono', sans-serif !important;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.react-alert-card h5 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.wallets-modal-full .modal-content {
+  height: 400px;
+}
+.wallets-modal-full .modal-content p {
+  line-height: 40px;
+  text-align: center;
+}

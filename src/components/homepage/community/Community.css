@@ -1,0 +1,53 @@
+#community {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 100% !important;
+}
+
+.net-bg {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: -5%;
+    width: 115%;
+    z-index: -2;
+}
+
+#community .lol-btn {
+    margin: 7vh auto 10vh;
+    display: block;
+    width: fit-content;
+}
+
+#community p {
+    font-family: 'Madera', sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 23px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 75%;
+    margin: 0 auto
+}
+
+#community img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #community p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    #community img {
+        width: 90%;
+    }
+
+    #community img.net-bg {
+        width: 115% !important;
+    }
+}

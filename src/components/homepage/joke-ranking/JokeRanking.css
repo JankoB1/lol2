@@ -1,0 +1,19 @@
+#joke-ranking {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#joke-ranking h2 {
+    margin-bottom: 12vh;
+}
+
+.joke-ranking-inner .joke-ranking-visual {
+    float: right;
+    max-height: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+    .joke-ranking-cards-row {
+        justify-content: space-between;
+    }
+}

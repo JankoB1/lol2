@@ -1,0 +1,97 @@
+.joke-ranking-card {
+    margin: 30px 0;
+    padding: 20px 20px 0 20px;
+    width: 45% !important;
+    margin-right: 5% !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.joke-ranking-card h6 {
+    font-family: 'Input Mono', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.joke-ranking-card p {
+    font-family: 'Input Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.joke-ranking-card .joke-ranking-num {
+    font-family: 'Input Mono', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 120%;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-top: 15px;
+}
+
+.joke-ranking-card img {
+    width: 50px;
+    position: relative;
+    right: 15px;
+}
+
+.joke-ranking-card:hover {
+    background: #EDD566;
+    box-shadow: 9px 17px 36px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(21.8014px);
+    border-radius: 12px;
+}
+
+.joke-ranking-card:hover p,
+.joke-ranking-card:hover h6 {
+    color: black !important;
+}
+
+.joke-ranking-card:hover .joke-ranking-num {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.25) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .joke-ranking-card {
+        margin-right: 0 !important;
+    }
+
+    .joke-ranking-card .joke-ranking-num {
+        text-align: center;
+    }
+
+    .joke-ranking-card img {
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    .joke-ranking-card h6 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .joke-ranking-card p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .joke-ranking-inner .joke-ranking-visual {
+        width: 100%;
+    }
+}

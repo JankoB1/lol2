@@ -1,0 +1,11 @@
+#vote {
+    padding: 0 0 30vh;
+    background-image: url("../../../assets/images/elipse.png");
+    background-size: cover;
+    background-position: 0 40vh;
+    max-width: 100% !important;
+}
+
+.vote-cards {
+    margin-top: 8vh !important;
+}

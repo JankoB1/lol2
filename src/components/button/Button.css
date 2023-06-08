@@ -1,0 +1,40 @@
+.lol-btn.active {
+    background-image: url("../../assets/images/active-btn-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Input Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 50px;
+    border: 1.5px solid #FFFFFF;
+    box-shadow: inset 0px 4px 73px rgba(255, 186, 0, 0.47);
+    backdrop-filter: blur(2.5px);
+    border-radius: 1000px;
+}
+
+.lol-btn {
+    border: 1px solid #5B5B5B;
+    border-radius: 1000px;
+    background: transparent;
+    font-family: 'Input Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .lol-btn {
+        font-size: 16px !important;
+    }
+}
